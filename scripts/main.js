@@ -5,7 +5,7 @@ function getCthulhu() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === 'images/me.png') {
         myImage.setAttribute('src', 'images/cthulhu.jpg');
-        timer = setTimeout(getCthulhu, 250);
+        timer = setTimeout(getCthulhu, 350);
     }
     else {
         myImage.setAttribute('src', 'images/me.png');
